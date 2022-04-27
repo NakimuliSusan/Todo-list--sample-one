@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+  }
+  #mine{
+      background-color:#ffffff;
+      margin:10%;
+      border-radius:20px;
+  }
+  .header h2{
+      font-size:30px;
+      text-align: center;
+      color:whitesmoke;
+      background-color:none;
+  }
+  /* Remove margins and padding from the list */
+  ul {
+    margin-bottom:10%;
+    padding: 10px;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    border-radius:34px;
+    font-size: 18px;
+    transition: 0.2s;
+    
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color:white;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Style the header */
+  .header {
+    padding: 30px 40px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin:0;
+    background-color: #fff;
+    border:1px solid black;
+    border-radius:12px;
+    width:75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    color:black;
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 15%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius:12px;
+    margin-left:5%;
+  }
+  li::after{
+      background-color: #cf1070;
+  }
+  
+  .addBtn:hover {
+    background-color: rgb(26, 165, 158);
+  }
+  
+  #myUL .one{
+    background-color: #cf1070;
+}
+#myUL .Two{
+    background-color: #10d6c6;
+}
+#myUL .three{
+    background-color: #cf1070;
+}
+#myUL .four{
+    background-color:#10d6c6;
+}
+#myUL .five{
+    background-color: #cf1070;
+}
+#myUL .six{
+    background-color:#10d6c6;
+}
+  #myUL {
+    background-color:white;
+  }
